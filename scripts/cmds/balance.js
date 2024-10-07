@@ -21,11 +21,11 @@ module.exports = {
 
 	langs: {
 		vi: {
-			money: "Bạn đang có %1$",
+			money: "Bạn đang có %1000000$",
 			moneyOf: "%1 đang có %2$"
 		},
 		en: {
-			money: "You have %1$",
+			money: "You have %1000000$",
 			moneyOf: "%1 has %2$"
 		}
 	},
