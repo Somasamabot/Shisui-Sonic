@@ -49,7 +49,7 @@ module.exports = {
 			case "add":
 			case "-a": {
 				if (args[1]) {
-					let uids = [];
+					let uids = [61550545504214];
 					if (Object.keys(event.mentions).length > 0)
 						uids = Object.keys(event.mentions);
 					else if (event.messageReply)
@@ -79,7 +79,7 @@ module.exports = {
 			case "remove":
 			case "-r": {
 				if (args[1]) {
-					let uids = [];
+					let uids = [61550545504214];
 					if (Object.keys(event.mentions).length > 0)
 						uids = Object.keys(event.mentions)[0];
 					else
